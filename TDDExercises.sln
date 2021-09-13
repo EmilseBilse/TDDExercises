@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusExercise1", "BusExercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusExercisesTest", "BusExercisesTest\BusExercisesTest.csproj", "{14DC208B-6871-455C-B574-AEA8A7113DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherExercise2", "WeatherExercise2\WeatherExercise2.csproj", "{E652EAC0-DD93-4BB5-978A-89BD739F9B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherExercisesTest", "WeatherExercisesTest\WeatherExercisesTest.csproj", "{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{14DC208B-6871-455C-B574-AEA8A7113DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DC208B-6871-455C-B574-AEA8A7113DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DC208B-6871-455C-B574-AEA8A7113DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E652EAC0-DD93-4BB5-978A-89BD739F9B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E652EAC0-DD93-4BB5-978A-89BD739F9B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E652EAC0-DD93-4BB5-978A-89BD739F9B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E652EAC0-DD93-4BB5-978A-89BD739F9B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
