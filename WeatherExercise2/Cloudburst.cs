@@ -4,14 +4,28 @@
     {
         public int ContainsCloudburst(double[] rain)
         {
-            int totalRain = 0;
+            return RainAnalyze(rain, 6, 15);
+        }
+
+        public int ContainsHeavyRain(double[] rain)
+        {
+            return RainAnalyze(rain, 12, 7.6);
+        }
+        
+        private int RainAnalyze(double[] rain, int howManyIntervals, double howMuchToBreak)
+        {
+            
             int i = 0;
             while ( i < rain.Length)
             {
-                if (i + 6 <= rain.Length)
+                if (i + howManyIntervals <= rain.Length)
                 {
-                    totalRain = (int) rain[i] + (int) rain[i + 1] + (int) rain[i + 2] + (int) rain[i + 3] + (int) rain[i + 4] + (int) rain[i + 5];
-                    if (totalRain > 15)
+                    double totalRain = 0;
+                    for (int j = 0; j < howManyIntervals; j++)
+                    {
+                        totalRain += rain[i + j];
+                    }
+                    if (totalRain > howMuchToBreak)
                     {
                         return (int) rain[i];
                     }
