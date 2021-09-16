@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherExercise2", "Weather
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherExercisesTest", "WeatherExercisesTest\WeatherExercisesTest.csproj", "{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedBag", "SortedBag\SortedBag.csproj", "{CF052F55-4187-4FB4-82C1-DAC5865BB0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedBagTest", "SortedBagTest\SortedBagTest.csproj", "{39A1363F-CF82-4D24-B128-E65DD30817B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9175C3BB-7C4A-4254-95FB-06DC5BB9A37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF052F55-4187-4FB4-82C1-DAC5865BB0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF052F55-4187-4FB4-82C1-DAC5865BB0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF052F55-4187-4FB4-82C1-DAC5865BB0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF052F55-4187-4FB4-82C1-DAC5865BB0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A1363F-CF82-4D24-B128-E65DD30817B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A1363F-CF82-4D24-B128-E65DD30817B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A1363F-CF82-4D24-B128-E65DD30817B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A1363F-CF82-4D24-B128-E65DD30817B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
