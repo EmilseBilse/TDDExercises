@@ -27,7 +27,7 @@
                     }
                     if (totalRain > howMuchToBreak)
                     {
-                        return (int) rain[i];
+                        return i;
                     }
                 }
                 i++;
