@@ -30,7 +30,7 @@
                         return i;
                     }
                 }
-                i++;
+                i++
             }
             return -1;
         }
