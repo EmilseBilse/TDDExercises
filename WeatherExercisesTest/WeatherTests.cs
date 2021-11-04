@@ -11,7 +11,7 @@ namespace WeatherExercisesTest
             ICloudburst cb = new Cloudburst();
             double[] rain = {0, 0, 0, 1, 3, 4, 5, 2, 2, 0, 1, 4, 2, 2};
             //Act
-            int expected = 3;
+            int expected = 3
             
             //Assert
             Assert.Equal(expected, cb.ContainsCloudburst(rain));
