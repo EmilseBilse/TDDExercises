@@ -53,7 +53,7 @@ namespace WeatherExercisesTest
             int expected = 3;
             
             //Assert
-            Assert.Equal(expected, cb.ContainsHeavyRain(rain));
+            Assert.Equal(expected, cb.ContainsHeavyRain(rain))
         }
         
         
